@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức</title>
+    <link rel=icon href=images/favicon.ico sizes="16x16" type="icon">
+</head>
+
+<body>
+    <div class="grid">
+        <header>
+            <a href="trangchu.html"><img src="images/logo.png" alt="logo"></a>
+            <nav>
+                <a href="trangchu.html">Trang Chủ</a>
+                <a href="gioithieu.html">Giới Thiệu</a>
+                <a href="sanpham.html">Sản Phẩm</a>
+                <a href="tintuc.html">Tin Tức</a>
+                <a href="dangnhap.html">Đăng Nhập</a>
+                <a href="dangky.html">Đăng Ký</a>
+                <a href="lienhe.html">Liên Hệ</a>
+            </nav>
+        </header>
+        <main>
+            <fieldset>
+                <legend><b>ĐĂNG KÝ</b></legend>
+                <form method="post" name="formRegister" autocomplete="off">
+                    <table style=" width: 100%;">
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;">Email</th>
+                            <td>
+                                <input type="text" name="Email" placeholder="Vui lòng nhập Email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;">Mật Khẩu</th>
+                            <td>
+                                <input type="password" name="password" placeholder="Vui lòng nhập mật khẩu" required>
+                            </td>
+                            <td>
+                        </tr>
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;">Nhập lại mật khẩu</th>
+                            <td>
+                                <input type="password" name="password" placeholder="Vui lòng nhập mật khẩu" required>
+                            </td>
+                            <td>
+                        </tr>
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;">Cấp độ thành viên</th>
+                            <td>
+                                <input type="radio" name="rank" value="Bạc"> <b>Bạc</b>
+                                <input type="radio" name="rank" value="Vàng"> <b>Vàng</b>
+                                <input type="radio" name="rank" value="Bạch Kim"> <b>Bạch Kim</b>
+                            </td>
+                            <td>
+                        </tr>
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;">Ảnh đại diện</th>
+                            <td>
+                                <input type="file" accept="image/png, image/jpeg" name="avarta" required>
+                            </td>
+                            <td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="width: 150px; text-align: left; padding-left: 12px;">
+                                <b>Thông qua việc tạo tài khoảng, bạn đồng ý với <a href="#">Điều khoảng & Quyền riêng
+                                        tư của chúng tôi.</a></b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width: 150px; text-align: left; padding-left: 12px;"><input type="submit"
+                                    name="submit" value="Đăng Ký">
+                                <input type="reset" name="Reset" value="Hủy">
+                            </th>
+                        </tr>
+
+
+                    </table>
+                </form>
+            </fieldset>
+        </main>
+        <footer>
+            <b>
+                © 2021 Bản quyền thuộc về Freeeze VN.
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">pinterest</a>
+                <a href="#header__logo">Về đầu trang</a>
+            </b>
+        </footer>
+    </div>
+
+</body>
+<style>
+    .grid {
+        width: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+</style>
+
+</html>
