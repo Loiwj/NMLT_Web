@@ -1,0 +1,225 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    margin: 0 auto;
+    border: 1px;
+    padding: 0 5px;
+    width: 1024px;
+
+}
+
+main {
+    /* display: flex; */
+    border: 1px solid #ccc7c8;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+
+nav {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+header {
+    margin-bottom: 2px;
+    border: 1px solid #ccc7c8;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-image: url("../images/lap2/header.png");
+    height: 100px;
+
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Nếu hết hàng item sẽ xuống dòng */
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* Test */
+.grid__column-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33%;
+    text-align: justify;
+
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid__column-33 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 32.5%;
+}
+
+.grid__column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 65%;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.grid__column-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.grid__column-7-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 70%;
+}
+.grid__column-3-7 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+}
+.grid__column-8 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+}
+
+.header__img1 {
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    animation: move1 ease-in-out 3.0s;
+}
+
+.header__img2 {
+    height: 70px;
+    top: -5px;
+    left: 45%;
+    position: absolute;
+    animation: move2 ease-in-out 3.0s;
+}
+
+.header__img3 {
+    height: 80px;
+    top: 0;
+    left: 60%;
+    position: absolute;
+    animation: move3 ease-in-out 3.0s;
+}
+
+@keyframes move1 {
+    from {
+        transform: translateX(80%);
+    }
+
+    to {
+        transform: translateX(30%);
+
+    }
+}
+
+@keyframes move2 {
+    from {
+        transform: translateX(80%);
+    }
+
+    to {
+        transform: translateX(45%);
+
+    }
+}
+
+@keyframes move3 {
+    from {
+        transform: translateX(80%);
+    }
+
+    to {
+        transform: translateX(60%);
+
+    }
+}
+
+.on-top {
+    display: block;
+    background-image: url(../images/lap2/top.png);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    /* Làm thành hình vuông */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 17%;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.underlined {
+    background-image: linear-gradient(#fff, #cddc39, #fff);
+    width: 3px;
+    height: 4px;
+    transform: scaleX(-50) rotate(90deg);
+    position: relative;
+    left: 50%;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.main-content-1 {
+    color: #ed4190;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 28px;
+
+}
+
+
+.main-content-2 {
+    font-weight: 300;
+    line-height: 28px;
+    color: #ed4190;
+    font-size: 24px;
+}
+
+.main-content-3 {
+    font-weight: 300;
+    line-height: 24px;
+    color: #ed4190;
+    font-size: 20px;
+}
+.width-full {
+    width: 100%;
+}
+
+.justify {
+    text-align: justify;
+   
+}
+.margin-bottom-40 {
+    margin-bottom: 40px;
+    position: relative;
+}
+.width-100 {
+    width: 100px;
+}
+.justify-content-center {
+    justify-content: center;
+}

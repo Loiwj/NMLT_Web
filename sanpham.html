@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sản Phẩm</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel=icon href="./assets/images/lap1/favicon.ico" sizes="16x16" type="icon">
 </head>
 
 <body>
     <div class="grid">
         <header>
-            <a href="index.html"><img src="./assets/images/lap1/logo.png" alt="logo"></a>
+            <img class="header__img1" src="./assets/images/lap2/header-img1.png" alt="">
+            <img class="header__img2" src="./assets/images/lap2/header-img2.png" alt="">
+            <img class="header__img3" src="./assets/images/lap2/header-img3.png" alt="">
+            <a class="logo" href="index.html"><img src="./assets/images/lap1/logo.png" alt="logo"></a>
             <nav>
                 <a href="index.html">Trang Chủ</a>
                 <a href="gioithieu.html">Giới Thiệu</a>
@@ -22,147 +28,176 @@
                 <a href="dangky.html">Đăng Ký</a>
                 <a href="lienhe.html">Liên Hệ</a>
             </nav>
+            <div class="search-header">
+                <input type="text" placeholder="Nhập nội dung cần tìm...">
+                <a class="search-header-icon" href="#" class=""><i
+                        class="fa-solid fa-magnifying-glass search-icon"></i></a>
+                <a class="search-header-icon" href="#"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+            </div>
         </header>
         <main>
-            <div>
-                <h1>Sản Phẩm Truyền Thống</h1>
-                <div>
+            <h1 class="main-content-1">SẢN PHẨM TRUYỀN THỐNG</h1>
+            <div class="underlined"></div>
+            <div class="grid__row">
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/kiwi.jpg" alt="kiwi">
-                    <h1>Sữa Chua Vị Kiwi</h1>
-                    <p>Hương vị thơm ngon của trái Kiwi xanh, nổi tiếng của đất nước New Zealand có trong Sữa chua vị
+                    <h1 class="main-content-2">Sữa Chua Vị Kiwi</h1>
+                    <p class="justify margin-bottom-40">Hương vị thơm ngon của trái Kiwi xanh, nổi tiếng của đất nước
+                        New Zealand có
+                        trong Sữa chua vị
                         Kiwi
                         xanh đem đến một món ăn nhẹ Siêu ngon và tốt cho hệ tiêu hóa. <a href="#">Xem chi
-                            tiết.</a><span>
+                            tiết.</a>
+                    </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/mango.jpg" alt="Xoài">
-                    <h1>Sữa Chua Vị Xoài</h1>
-                    <p>Sữa chua xoài thích hợp cho mọi lứa tuổi, vì vậy hãy để cả gia đình quây quần bên nhau cùng
+                    <h1 class="main-content-2">Sữa Chua Vị Xoài</h1>
+                    <p class="justify margin-bottom-40">Sữa chua xoài thích hợp cho mọi lứa tuổi, vì vậy hãy để cả gia
+                        đình quây quần bên
+                        nhau cùng
                         thưởng
-                        thức món ăn thơm ngon, bổ dưỡng này<a href="#">Xem chi tiết.</a><span>
+                        thức món ăn thơm ngon, bổ dưỡng này<a href="#">Xem chi tiết.</a>
+                    </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/cantaloupe.jpg" alt="cantaloupe">
-                    <h1>Sữa Chua Vị Dưa Lưới</h1>
-                    <p>Trong dưa lưới chứa rất nhiều vitamin C có tác dụng làm đẹp da hiệu quả. Phụ nữ ăn sinh tố dưa
+                    <h1 class="main-content-2">Sữa Chua Vị Dưa Lưới</h1>
+                    <p class="justify margin-bottom-40">Trong dưa lưới chứa rất nhiều vitamin C có tác dụng làm đẹp da
+                        hiệu quả. Phụ nữ
+                        ăn sinh tố dưa
                         lưới
-                        thường xuyên sẽ có làn da mịn màng<a href="#">Xem chi tiết.</a><span>
+                        thường xuyên sẽ có làn da mịn màng<a href="#">Xem chi tiết.</a>
+                    </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div>
-                <h1>Sản Phẩm Mới</h1>
-                <div>
+            <h1 class="main-content-1">SẢN PHẨM MỚI</h1>
+            <div class="underlined"></div>
+            <div class="grid__row">
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/strawberry.jpg" alt="strawberry">
-                    <h1>Sữa Chua Vị Kiwi</h1>
-                    <p>Quả mâm xôi là loại quả ăn họ hoa hồng, có nguồn gốc từ châu Âu, Bắc Á và được trồng ở các vùng
+                    <h1 class="main-content-2">Sữa Chua Vị Kiwi</h1>
+                    <p class="justify margin-bottom-40">Quả mâm xôi là loại quả ăn họ hoa hồng, có nguồn gốc từ châu Âu,
+                        Bắc Á và được trồng ở các vùng
                         ôn đới trên toàn thế giới. Có nhiều loại, bao gồm đen, tím và vàng. <a href="#">Xem chi
-                            tiết.</a><span>
+                            tiết.</a></p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/blackberry.jpg" alt="blackberry">
-                    <h1>Sữa Chua Vị Dâu Tây</h1>
-                    <p>Dâu tây là một loài cây thân thảo có thân ngắn và các chiếc lá mọc gần với nhau. Lá có nhiều gai,
+                    <h1 class="main-content-2">Sữa Chua Vị Dâu Tây</h1>
+                    <p class="justify margin-bottom-40">Dâu tây là một loài cây thân thảo có thân ngắn và các chiếc lá
+                        mọc gần với nhau. Lá có nhiều gai,
                         bề mặt lá có nhiều lông tơ và kích thước lá có thể khác nhau ở từng giống.<a href="#">Xem chi
-                            tiết.</a><span>
+                            tiết.</a></p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/blueberry.jpg" alt="blueberry">
-                    <h1>Sữa Chua Vị Việt Quất</h1>
-                    <p>Quả việt quất chứa các dưỡng chất tốt cho sức khỏe như chất xơ, kali, folate, vitamin C và
-                        vitamin B6 (những chất hỗ trợ rất tốt cho sức khỏe của tim).<a href="#">Xem chi tiết.</a><span>
+                    <h1 class="main-content-2">Sữa Chua Vị Việt Quất</h1>
+                    <p class="justify margin-bottom-40">Quả việt quất chứa các dưỡng chất tốt cho sức khỏe như chất xơ,
+                        kali, folate, vitamin C và
+                        vitamin B6 (những chất hỗ trợ rất tốt cho sức khỏe của tim).<a href="#">Xem chi tiết.</a></p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div>
-                <h1>Sản Phẩm Trái Cây</h1>
-                <div>
+            <h1 class="main-content-1">SẢN PHẨM TRÁI CÂY LÊN MEN NHIỆT ĐỚI</h1>
+            <div class="underlined"></div>
+            <div class="grid__row">
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/grapes.jpg" alt="grapes">
-                    <h1>Sữa Chua Vị Bưởi</h1>
-                    <p>Bưởi là một loại quả thuộc chi Cam chanh có nguồn gốc từ Đông Nam Á. Bưởi tiếng Anh gọi là
-                        Pomelo, tuy nhiên nhiều từ điển ở Việt Nam lại dịch thành grapefruit.</a><span>
+                    <h1 class="main-content-2">Sữa Chua Vị Bưởi</h1>
+                    <p class="justify margin-bottom-40">Bưởi là một loại quả thuộc chi Cam chanh có nguồn gốc từ Đông
+                        Nam Á. Bưởi tiếng Anh gọi là
+                        Pomelo, tuy nhiên nhiều từ điển ở Việt Nam lại dịch thành grapefruit.</a> </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/green-apple.jpg" alt="green-apple">
-                    <h1>Sữa Chua Vị Táo Xanh</h1>
-                    <p>Táo xanh có hàm lượng chất xơ cao giúp tăng cường quá trình trao đổi chất của cơ thể. Bên cạnh
-                        đó, chất xơ còn giúp quá trình giải độc gan và hệ tiêu hóa.<a href="#">Xem chi tiết.</a><span>
+                    <h1 class="main-content-2">Sữa Chua Vị Táo Xanh</h1>
+                    <p class="justify margin-bottom-40">Táo xanh có hàm lượng chất xơ cao giúp tăng cường quá trình trao
+                        đổi chất của cơ thể. Bên cạnh
+                        đó, chất xơ còn giúp quá trình giải độc gan và hệ tiêu hóa.<a href="#">Xem chi tiết.</a> </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
-                <div>
+                <div class="grid__column-33 product-item ">
                     <img src="assets/images/lap1/sanpham/pineapple.jpg" alt="pineapple">
-                    <h1>Sữa Chua Vị Dứa</h1>
-                    <p>Dứa có các tên gọi khác như là khóm, thơm, khớm, gai hoặc huyền nương. Đây là một loại quả nhiệt
-                        đới. Dứa là cây bản địa của các nước Nam Mỹ.<a href="#">Xem chi tiết.</a><span>
+                    <h1 class="main-content-2">Sữa Chua Vị Dứa</h1>
+                    <p class="justify margin-bottom-40">Dứa có các tên gọi khác như là khóm, thơm, khớm, gai hoặc huyền
+                        nương. Đây là một loại quả nhiệt
+                        đới. Dứa là cây bản địa của các nước Nam Mỹ.<a href="#">Xem chi tiết.</a> </p>
+                    <div class="product-item-order">
+                        <form method="post" name="formRegister" autocomplete="off">
                             <span> Số Lượng:</span>
-                            <form method="post" name="formRegister" autocomplete="off">
-                                <input type="text" style="width: 100px;">
-                                <button>Đặt hàng</button>
-                            </form>
-                        </span></p>
+                            <input type="text" class="width-100">
+                            <button>Đặt hàng</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
             <p>
                 © 2021 Bản quyền thuộc về Freeeze VN.
-                <a href="#">facebook</a>
-                <a href="#">twitter</a>
-                <a href="#">pinterest</a>
-                <a href="#header__logo">Về đầu trang</a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="on-top" href="#header"></a>
             </p>
         </footer>
     </div>
 
 </body>
-<style>
-    .grid {
-        width: 540px;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-</style>
 
 </html>

@@ -1,54 +1,27 @@
-*{
-    scroll-behavior: smooth;
-}
-body {
-    display: grid;
-    margin: 0 auto;
-    border: 1px;
-    padding: 0 5px;
-    width: 1024px;
 
-}
-
-main {
-    display: grid;
-    border: 1px solid #ccc7c8;
-    padding: 0 5px;
-    border-radius: 5px;
-}
-
-aside {
-    margin: 2px;
-    padding: 5px;
-    grid-area: left-cell 1fr;
-}
-
-article {
-    grid-area: article-cell 3fr;
-}
-
-header {
-    margin-bottom: 2px;
-    border: 1px solid #ccc7c8;
-    padding: 0 5px;
-    border-radius: 5px;
-    background-image: url("../lap2/header.png");
-    height: 100px;
-
-}
-.logo{
+.logo {
     display: block;
 }
-nav {
-    margin-top: 20px;
-    display: inline-block;
-}
+
+
+
 .search-header {
     display: inline-block;
     float: right;
+    margin-top: 18px;
+    
+}
+.search-header-icon {
+    border-radius: 2px;
+    display: inline-block;
+   margin-right: 4px;
+}
+.search-header-icon i {
+    padding: 5px;
 }
 
-nav > a {
+
+nav>a {
     margin: 3px;
     padding: 2px 4px;
     border: 1px solid #fff;
@@ -58,7 +31,7 @@ nav > a {
     color: #ed4190;
     box-shadow: 0 0 3px 0 #00000066;
     text-decoration: none;
-    border-radius: 5px  ;
+    border-radius: 5px;
 }
 
 nav>a:hover {
@@ -72,7 +45,9 @@ nav>a:hover {
     color: #fff;
     background-color: #cddc39;
     height: 30px;
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .cart-icon {
@@ -81,4 +56,91 @@ nav>a:hover {
     color: #ed4190;
     background-color: #cddc39;
     height: 30px;
+}
+
+footer {
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ed4190;
+}
+
+
+
+footer p {
+    text-align: center;
+}
+
+.order_now {
+    border: 1px solid #ed4190;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 24%;
+    height: 150px;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+.order_now a {
+    text-decoration: none;
+    color: #000;
+}
+
+.order_img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.order_now-list {
+    justify-content: center;
+    
+}
+.product-item {
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-left: 5px;
+text-align: center;
+position: relative;
+}
+.product-item-order {
+    height: 36px;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(#fff, #cddc39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+
+.suggestions-icon {
+    align-items: flex-end;
+   margin-bottom: 1px;
+}
+.suggestions-send {
+    margin-left: -8px;
+    margin-bottom: 12px;
+}
+.care {
+    order: 0;
+}
+.news {
+    order: 1;
+}
+.news-img {
+    border-radius: 5%;
+    order: 1;
+    
+}
+.new-text {
+    order: 0;
 }
