@@ -33,9 +33,11 @@ header {
     border-radius: 5px;
     background-image: url("../images/lap2/header.png");
     height: 100px;
-
+    position: relative;
 }
-
+.shadow {
+    box-shadow: 0 0 3px 0 #00000066, 0 0  2px 0 #0000004d;
+}
 .grid__row {
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +60,7 @@ header {
     padding-right: 5px;
     width: 20%;
 }
+
 .grid__column-33 {
     padding-left: 5px;
     padding-right: 5px;
@@ -78,16 +81,19 @@ header {
     padding-right: 5px;
     width: 50%;
 }
+
 .grid__column-7-3 {
     padding-left: 5px;
     padding-right: 5px;
     width: 70%;
 }
+
 .grid__column-3-7 {
     padding-left: 5px;
     padding-right: 5px;
     width: 30%;
 }
+
 .grid__column-8 {
     padding-left: 5px;
     padding-right: 5px;
@@ -98,55 +104,55 @@ header {
     height: 100px;
     position: absolute;
     top: -30px;
-    left: 30%;
-    animation: move1 ease-in-out 3.0s;
+    margin-left: 30%;
+    animation: move1 linear 3.0s;
 }
 
 .header__img2 {
     height: 70px;
     top: -5px;
-    left: 45%;
+    margin-left: 45%;
     position: absolute;
-    animation: move2 ease-in-out 3.0s;
+    animation: move2 linear 3.0s;
 }
 
 .header__img3 {
     height: 80px;
     top: 0;
-    left: 60%;
+    margin-left: 63%;
     position: absolute;
-    animation: move3 ease-in-out 3.0s;
+    animation: move3 linear 3.0s;
 }
 
 @keyframes move1 {
     from {
-        transform: translateX(80%);
+        margin-left: 80%;
     }
 
     to {
-        transform: translateX(30%);
+        margin-left: 30%;
 
     }
 }
 
 @keyframes move2 {
     from {
-        transform: translateX(80%);
+        margin-left: 80%;
     }
 
     to {
-        transform: translateX(45%);
+        margin-left: 45%;
 
     }
 }
 
 @keyframes move3 {
     from {
-        transform: translateX(80%);
+        margin-left: 80%;
     }
 
     to {
-        transform: translateX(60%);
+        margin-left: 63%;
 
     }
 }
@@ -205,21 +211,27 @@ header {
     color: #ed4190;
     font-size: 20px;
 }
+
 .width-full {
     width: 100%;
 }
 
 .justify {
     text-align: justify;
-   
+
 }
+
 .margin-bottom-40 {
     margin-bottom: 40px;
     position: relative;
 }
+
 .width-100 {
     width: 100px;
 }
+
 .justify-content-center {
     justify-content: center;
 }
+
+
