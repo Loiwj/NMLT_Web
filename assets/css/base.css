@@ -176,10 +176,10 @@ header {
 }
 
 .underlined {
-    background-image: linear-gradient(#fff, #cddc39, #fff);
-    width: 3px;
+    background: linear-gradient(to right, #fff, #cddc39, #fff);
+    width: 20px;
     height: 4px;
-    transform: scaleX(-50) rotate(90deg);
+    transform: scaleX(-12);
     position: relative;
     left: 50%;
     margin-top: 0;
