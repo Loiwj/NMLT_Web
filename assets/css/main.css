@@ -32,6 +32,7 @@ nav>a {
     box-shadow: 0 0 3px 0 #00000066;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 0 0 3px 0 #00000066, 0 0  2px 0 #0000004d;
 }
 
 nav>a:hover {
